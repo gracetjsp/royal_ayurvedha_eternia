@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @font-face {
+      font-family: myFirstFont;
+      src: url('MarckScript-Regular.ttf');    
+    }
+
+    @font-face {
+      font-family: myFirstFont1;
+      src: url('PlayfairDisplay-Regular.ttf');
+    }
+    html{
+      font-size: 1rem;
+    }
+    /* @include media-breakpoint-up(sm) {  }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
+@include media-breakpoint-up(xxl) { ... } */
+
+
+    /* .title {
+      font-size: calc(1.525rem + 3.3vw);
+    }
+
+    @media (min-width: 1200px) {
+      .title {
+        font-size: 4rem;
+      }
+    } */
+
+
+    .royal h1 {
+      color: #6a6e6e;
+      text-align: center;
+
+    }
+
+    .royal h3 {
+      color: #6eba4b;
+      font-family: 'myFirstFont';
+      text-align: center;
+
+    }
+
+    .guide h3 {
+      background-color: #20262a;
+      color: white;
+      text-align: center;
+    }
+
+    .box {
+      background: #6eba4b !important;
+      box-shadow: 0px 8px 10px grey, -10px 8px 15px grey, 10px 8px 15px grey;
+
+    }
+
+    .box {
+      text-align: center;
+    }
+
+    .box h4 {
+      color: white;
+    }
+
+    .box h5 {
+      font-family: "myFirstFont";
+      font-weight: 800;
+    }
+
+    /* .cleanse {
+      float: left;
+    }
+
+    .healthy {
+      float: left;
+    } */
+
+    .spa {
+      background: #20262a;
+
+    }
+
+    .spa p {
+      color: white;
+    }
+
+    .spa h2 {
+      color: white;
+      font-family: 'myFirstFont1';
+      text-align: center;
+    }
+
+    .spa h3 {
+      color: #79c154;
+      font-family: 'myFirstFont';
+      text-align: center;
+    }
+
+    .spaSub1 {
+      background: #79c154;
+      font-size: x-small;
+
+    }
+
+    .benefitsSpa h3 {
+      color: #20262a;
+      font-family: 'myFirstFont';
+      font-weight: 800;
+      margin-bottom: 0%;
+      text-align: center;
+    }
+
+    .psychology h3 {
+
+      font-family: 'myFirstFont1';
+      text-align: center;
+
+    }
+
+    .psychology h4 {
+      color: #6eba4b;
+      font-family: 'myFirstFont';
+      font-weight: 600;
+      font-size: xx-large;
+      text-align: center;
+    }
+
+    .psychologySub1 {
+      background: #20262a;
+      color: white;
+      text-align: center;
+
+    }
+
+    .psychologySub1 h6 {
+      font-family: 'myFirstFont';
+
+    }
+
+    .feelFree {
+      background: #20262a;
+
+    }
+
+    .feelFree p {
+      color: white !important;
+    }
+
+    .feelFree h4 {
+      color: #79c154;
+      font-family: 'myFirstFont';
+      font-weight: 800;
+      text-align: center;
+
+    }
+
+    .feelFree h3 {
+      color: white;
+      font-family: 'myFirstFont';
+      font-weight: 800;
+      text-align: center;
+
+    }
+
+    .benefitsCoselling {
+      background-color: #6eba4b;
+    }
+
+    .benefitsTravelSub1 {
+      /* float: left; */
+      color: white !important;
+    }
+
+    .benefitsTravelSub2 {
+      /* float: left; */
+      color: white !important;
+
+    }
+
+    .benefitsTravelSub3 {
+      /* float: left; */
+      color: white !important;
+
+    }
+
+    .benefitsCoselling h3 {
+      text-align: center;
+    }
+
+    .benefitsCoselling h2 {
+      font-family: 'myFirstFont1';
+      color: #20262a;
+      text-align: center;
+      font-weight: 800;
+    }
+
+    .royalTravels h3 {
+      font-family: 'myFirstFont';
+      color: #6eba4b;
+      text-align: center;
+      font-weight: 800;
+
+    }
+    .royalTravels h2 {
+      font-family: 'myFirstFont1';
+      color: #20262a;
+      text-align: center;
+      font-weight: 800;
+
+    }
+
+    .royalTravelsSub1 {
+      background: #20262a;
+    }
+
+    .royalTravelsSub1 h3 {
+      color: #6eba4b;
+      font-family: 'myFirstFont';
+      text-align: center;
+      font-weight: 800;
+
+    }
+
+    .royalTravelsSub1 h4 {
+
+      color: white;
+      font-family: 'myFirstFont';
+      text-align: center;
+      font-weight: 800;
+
+    }
+
+    .royalTravelsSub3 {
+      color: #6eba4b;
+      font-weight: 500;
+    }
+
+    .royalTravelsSub2 {
+      color: white;
+      font-weight: 500;
+    }
+
+    .royalTravelsSub4 {
+      color: white;
+      font-weight: 500;
+    }
+
+    .royalTravelsSub5 {
+      color: white;
+      font-weight: 500;
+    }
+
+    .royalTravelsSub6 {
+      color: white;
+      font-weight: 500;
+    }
+
+    .royalTravelsSub7 {
+      color: white;
+      font-weight: 500;
+
+    }
+
+    .benefitsTravelSub4 {
+      background: #6eba4b;
+    }
+
+    .benefitsTravelSub4 h3 {
+      color: #20262a;
+
+      text-align: center;
+      font-family: 'myFirstFont';
+      font-weight: 800;
+    }
+
+    .benefitsTravelSub4 p {
+
+      color: white;
+
+    }
+
+    .royalTravelsSub4 h3 {
+      color: #20262a;
+      text-align: center;
+      font-family: 'myFirstFont';
+      font-weight: 800;
+
+    }
+
+    .benefitsTravelSub5 h2 {
+      color: white;
+      font-family: 'myFirstFont1';
+      font-weight: 800;
+      text-align: center;
+      background: #20262a;
+    }
+
+    .benefitsTravelSub5 h3 {
+      color: #20262a;
+      font-weight: 800;
+      text-align: center;
+      background: #6eba4b;
+      box-shadow: 0px 8px 10px grey, -10px 8px 15px grey, 10px 8px 15px grey;
+    }
+
+
+    /* .body{
+      position: relative;
+    }
+    .header{
+      position: absolute;
+      width: 100%;
+    }
+    .navbar{
+      position: absolute;
+      width: 100%;
+      z-index: 99;
+      background-color: transparent;
+    } */
+    .image {
+      height: auto;
+      width: 20%;
+    }
+
+    .humBurBg {
+      background-color: #6eba4b !important;
+    }
+
+    /* .logo img{
+ height: 2%;
+    } */
+  </style>
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <script src="bootstrap.min.js"></script>
+  <script src="popper.min.js"></script>
+
+</head>
+
+<body>
+
+  <header class="sticky-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container ">
+        <div class="image">
+          <img src="https://www.royalayurvedicspa.com/wp-content/uploads/elementor/thumbs/white_logo.png"
+            class="img-fluid  logo">
+        </div>
+
+        <button class="navbar-toggler border-0" type="button " data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon humBurBg border-0">
+
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ayurveda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Psychology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tourism</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+
+          </ul>
+
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <div class="container-fluid ps-0 pe-0">
+    <img src="https://royalayurvedicspa.com/wp-content/uploads/2020/04/home_image_final.png" class="img-fluid">
+  </div>
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-6 bg-danger p-5">
+
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 bg-primary p-5">
+
+      </div>
+    </div>
+  </div> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-6 royal mt-5 ">
+        <h1 class="m-1">ROYAL WELLNESS SPA</h1>
+        <h3 class="m-1">Reunion of Mind, Body & Soul</h3>
+        <div class="container p-0 ms-xl-5 ">
+          <img src="https://royalayurvedicspa.com/wp-content/uploads/2020/04/offer_shadow4-1.png" class="img-fluid" style="width: auto;">
+        </div>
+
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 guide mt-2  mt-md-3">
+        <h3 class=" m-2 p-2 m-md-5">YOUR HAPPY AND HEALTHY GUIDE</h3>
+        <div class="p-2  rounded box m-2 m-md-5">
+          <h4 class="mt-xs-5">Men, Women, Couple and Kids</h4>
+          <h5 class="mt-xs-5">The home and other location visit service at your convenient time</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row p-0">
+      <div class="col-12 col-sm-6 col-md-6 mt-5  p-md-0">
+        <div class="row spa m-1">
+          <h2 class="p-2">SPA & RELAXATION PROMO</h2>
+            <h3 class="p-2">Melt Away All Your winter Tensions with Us For Less!
+          </h3>
+
+          <p class=" mb-1  ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Abhyangam/Full
+            Body
+            Massage</p>
+          <p class=" mb-1  ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Body Pain
+            Massage</p>
+          <p class=" mb-1  ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Rejuvenation
+            Massage</p>
+          <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Swedish Massage
+          </p>
+          <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Aroma Therapy
+          </p>
+          <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1  text-white" aria-hidden="true"></i>Thai Massage
+          </p>
+          <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Reflexology</p>
+          <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Head & Foot
+            Massage</p>
+          <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Spa Yoga &
+            Meditation</p>
+          <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Back Massage
+          </p>
+          <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Body Scrub</p>
+          <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Body Popsh</p>
+          <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Pedicure</p>
+          <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Facial</p>
+          <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Manicure</p>
+          <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Panchakarma
+            Treatment</p>
+          <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>etc..</p>
+
+
+          <div class="container  ">
+            <div class="row spaSub1 p-0  w-auto m-1 ">
+              <div class="col-12 benefitsSpa">
+                <div class="row">
+                  <h3>Benefits of Royal Ayurveda Spa Beauty & Yoga</h3>
+                </div>
+                <div class="row m-0">
+                  <div class="col-6 col-s-6 col-md-6 cleanse p-0  ">
+                    <div class="card bg-transparent border-0">
+
+                      <div class="card-body text-white ">
+
+
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1   text-white"
+                            aria-hidden="true"></i>Cleanse
+                          the
+                          body</p>
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1  text-white"
+                            aria-hidden="true"></i>Reduce
+                          Stress
+                        </p>
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1   text-white"
+                            aria-hidden="true"></i>Weight
+                          loss and
+                          Maintenance</p>
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1   text-white"
+                            aria-hidden="true"></i>Increase
+                          self-confidence</p>
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1  text-white"
+                            aria-hidden="true"></i>Lower
+                          blood
+                          pressure,Cholesterol</p>
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1  text-white"
+                            aria-hidden="true"></i>Improved
+                          Blood
+                          flow circulation</p>
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1  text-white"
+                            aria-hidden="true"></i>Reduced
+                          Frequency of Head </p>
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1  text-white"
+                            aria-hidden="true"></i>Improves
+                          heart
+                          health</p>
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1  text-white"
+                            aria-hidden="true"></i>Maintain
+                          Beauty
+                        </p>
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1  text-white"
+                            aria-hidden="true"></i>Waxing
+                        </p>
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1  text-white"
+                            aria-hidden="true"></i>Execise
+                          to
+                          lose
+                          stomach Fat</p>
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1  text-white"
+                            aria-hidden="true"></i>Relaxing
+                          yourself</p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="col-6 col-s-6 col-md-6 healthy  p-0 ">
+                    <div class="card bg-transparent border-0 ">
+                      <div class="card-body text-white ">
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1  text-white"
+                            aria-hidden="true"></i>Healthy
+                          and
+                          Glowing skin and hair</p>
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1  text-white"
+                            aria-hidden="true"></i>increased
+                          Happiness</p>
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1  text-white"
+                            aria-hidden="true"></i>Enhance
+                          atheletic performance</p>
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1  text-white"
+                            aria-hidden="true"></i>Lower
+                          Symptoms
+                          of illness</p>
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1  text-white"
+                            aria-hidden="true"></i>Preventing
+                          Varicose veins</p>
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1  text-white"
+                            aria-hidden="true"></i>Helps
+                          with Sleep
+                          Problems</p>
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1  text-white"
+                            aria-hidden="true"></i>Promote
+                          heapng
+                        </p>
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1  text-white" aria-hidden="true"></i>Save
+                          your Nose
+                        </p>
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1  text-white"
+                            aria-hidden="true"></i>Nails
+                          Treatment
+                        </p>
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1  text-white"
+                            aria-hidden="true"></i>Improved
+                          respiration energy</p>
+                        <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1  text-white"
+                            aria-hidden="true"></i>etc..
+                        </p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-6 mt-5  ">
+        <img src="https://royalayurvedicspa.com/wp-content/uploads/2020/04/spa-1.png" class="img-fluid w-100 p-md-0 ">
+
+      </div>
+
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row p-0">
+      <div class="col-12 col-sm-6 ">
+        <div class="row psychology m-2">
+
+          <div class="col-12">
+            <h3> ROYAL PSYCHOLOGY
+              &COUNSELLING</h3>
+            <h4>Life is a Purposeful Action.</h4>
+          </div>
+          <div class="col-12 psychologySub1 p-2">
+            <h5>YOUR HAPPY AND GREAT MINDSET GUIDE</h5>
+            <h6>The home and other location visit service at your convenient time</h6>
+          </div>
+          <div class="col-12 p-0 ">
+            <img src="https://royalayurvedicspa.com/wp-content/uploads/2020/05/psycho.png"
+              class="img-fluid mt-2 w-100 p-md-0">
+
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 ">
+        <div class="row feelFree m-1 mt-xs-5">
+          <div class="col-12">
+            <h4 class="p-1">Feel free to discuss any issue you are currently encountering" 100% Privacy</h4>
+            <h3 class="p-1">Quality and Effectively Service</h3>
+          </div>
+          <div class="col-12 feelFreeSub1">
+            <div class="card border-0 bg-transparent">
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Behavior and
+                school problems</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Depression</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Exam Fear</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Emotional
+                health
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Anexiety</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Anger</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Abuse issues
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Addictions
+                marital
+                conflict/Relationship
+                issues</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Pre-marital</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Family</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>
+                Divorce/Separation</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Attention
+                deficit
+                disorder
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Adult children
+                of
+                dysfunctional Families
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Attention
+                deficit
+                disorder
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Stress
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Teen issues
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Sexual Health
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Aging issues
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Developmental
+                delay</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Chromic pain/p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Parenting
+                concerns
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Self esteem</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Employees &
+                Business</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Skills Training
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Guidance and
+                Motivation classes</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Career Guidance
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>etc..</p>
+
+
+            </div>
+          </div>
+          <div class="container">
+          <div class="col-12  p-0  d-block d-sm-none w-auto m-2">
+            <div class="row benefitsCoselling w-auto">
+              <div class="col-12">
+                
+              <h3>Benefits of Royal Psychology & Counselling</h3>
+              <div class="row">
+                <div class="col-12 col-sm-4 col-md-4 benefitsTravelSub1">
+                  <did class="disc bg-transparent border-0">
+                    <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You will
+                      get
+                      to
+                      know yourself better</p>
+                    <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You will
+                      make
+                      new
+                      friends easier</p>
+                    <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>It will
+                      boost
+                      your
+                      confidence</p>
+                    <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>It is
+                      good
+                      for
+                      your well-being</p>
+
+
+                  </did>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4 benefitsTravelSub2">
+                  <did class="disc bg-transparent border-0">
+                    <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>It is
+                      cheaper
+                    </p>
+                    <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You get
+                      to
+                      choose
+                      your own route</p>
+                    <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You
+                      reflect
+                      on
+                      the
+                      experience better</p>
+                    <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>etc ...
+                    </p>
+
+
+                  </did>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4 benefitsTravelSub3">
+                  <did class="disc bg-transparent border-0">
+                    <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>It will
+                      get
+                      you
+                      out of your comfort zone
+                    </p>
+                    <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You will
+                      learn
+                      how
+                      rely on yourself</p>
+                    <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You will
+                      start
+                      enjoying your own company
+                    </p>
+
+
+                  </did>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="container mt-3 d-none d-sm-block  mt-5">
+    <div class="row w-100 benefitsCoselling m-0">
+      <div class="col-12  ">
+
+        <h3>Benefits of Royal Psychology & Counselling
+        </h3>
+
+        <div class="col-12  p-0  w-auto ">
+
+          <div class="row">
+
+            <div class="col-12 col-sm-4  benefitsTravelSub1">
+              <did class="disc bg-transparent border-0">
+                <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You will get
+                  to
+                  know yourself better</p>
+                <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You will make
+                  new
+                  friends easier</p>
+                <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>It will boost
+                  your
+                  confidence</p>
+                <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>It is good
+                  for
+                  your well-being</p>
+
+
+              </did>
+            </div>
+            <div class="col-12 col-sm-4 benefitsTravelSub2">
+              <did class="disc bg-transparent border-0">
+                <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>It is cheaper
+                </p>
+                <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You get to
+                  choose
+                  your own route</p>
+                <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You reflect
+                  on
+                  the
+                  experience better</p>
+                <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>etc ...</p>
+
+
+              </did>
+            </div>
+            <div class="col-12 col-sm-4 benefitsTravelSub3">
+              <did class="disc bg-transparent border-0">
+                <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>It will get
+                  you
+                  out of your comfort zone
+                </p>
+                <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You will
+                  learn
+                  how
+                  rely on yourself</p>
+                <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You will
+                  start
+                  enjoying your own company
+                </p>
+
+
+              </did>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="container mt-5 mb-5 mb-sm-0 ">
+    <div class="row royalTravels">
+      <div class="col-12 col-sm-6 col-md-6 ">
+        <h2 class="p-2">ROYAL TRAVELS & TOURISM</h2>
+        <h3 class="p-2">Travel With Less Plans And More Freedom !</h3>
+        <div class="row royalTravelsSub1 p-0 m-0 w-auto">
+          <h3 class="p-2">Eat Sleep Enjoy Relax Travel​</h3>
+          <h4 class="p-2">Quality, Historical Studying and Enjoyable Service</h4>
+          <div class="col-12 col-sm-12 royalTravelsSub2">
+            <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Mood Tour(
+              Family,
+              Friends, Students, and Individual,etc)</p>
+            <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Entertainment</p>
+            <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>E-Family(Virtual
+              Family)</p>
+            <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Story telling</p>
+            <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>Undisturbed
+              nature
+              life</p>
+          </div>
+          <div class="col-12 col-sm-12 royalTravelsSub3">
+            <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Holy Makkah
+              and Madinah</p>
+            <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Gulf
+              Countries
+            </p>
+            <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Holiday Tour
+            </p>
+
+
+          </div>
+          <div class="row ">
+            <div class="col-4 col-sm-4 col-md-4 royalTravelsSub4 d-none d-sm-block">
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Delhi</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Hyderabad
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Ajmeer</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Kodikanal
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>
+                Bekel</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Calicut</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>etc..</p>
+
+
+
+
+            </div>
+            <div class="col-4 col-sm-4 col-md-4 royalTravelsSub5 d-none d-sm-block">
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Agra</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Mysore</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Ervadi</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Pazhani</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Trivendram
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Wayanad</p>
+
+
+            </div>
+            <div class="col-4 col-sm-4 col-md-4 royalTravelsSub6 d-none d-sm-block">
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Goa</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Bangalore
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Madhurai
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Varanasi
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Eranakulam
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Munnar</p>
+
+
+            </div>
+          </div>
+
+          <div class="row royalTravelsSub7 w-auto ">
+            <div class="col-6 d-block d-sm-none">
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Delhi
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Mysore
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Ajmeer
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Bangalore
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Pazhani
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>
+                Bekel</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Eranakulam
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Wayanad
+              </p>
+
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>etc..
+              </p>
+
+
+            </div>
+            <div class="col-6 d-block d-sm-none">
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Agra</p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Hyderabad
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Ervadi
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Kodikanal
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Varanasi
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Trivendram
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Calicut
+              </p>
+              <p class=" mb-1 ps-3"><i class="fas fa-place-of-worship p-1 text-white" aria-hidden="true"></i>Munnar
+              </p>
+
+
+
+            </div>
+
+          </div>
+          <div class="container">
+            <div class="row col-md-12  benefitsTravelSub4 d-block d-sm-none w-auto m-2">
+              <div class="col-12 col-sm-12  ">
+                <h3>Benefits of Royal Travel and Tourism</h3>
+
+                <div class="row">
+
+
+                  <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You will
+                    get
+                    to
+                    know yourself better</p>
+                  <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>It is
+                    cheaper
+                  </p>
+                  <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>It will get
+                    youout of your comfort zone</p>
+
+                  <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You will
+                    make
+                    new
+                    friends easier</p>
+                  <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You get to
+                    choose your own route</p>
+                  <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You will
+                    learn how
+                    rely on yourself</p>
+                  <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>It will
+                    boost
+                    your
+                    confidence</p>
+                  <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You reflect
+                    on the
+                    experience better</p>
+                  <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You will
+                    start
+                    enjoying your own company</p>
+                  <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>It is good
+                    for
+                    your well-being</p>
+                  <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>etc ...</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+      <div class="col-12 col-sm-6 col-md-6 benefitsTravelSub5  mt-5 mt-5 mt-sm-0 mt-md-0">
+        <h2 class=" mt-5 mt-sm-0 mt-md-0 p-2">YOUR FAVORITE TRAVEL PARTNER</h2>
+        <h3 class=" mt-5 mt-5 mt-sm-0 mt-md-0 p-2">Quality, Historical Studying and Enjoyable Service</h3>
+        <div class="col-12 col-sm-6 col-md-6   w-100 mt-5 mt-5 mt-sm-2 mt-md-2">
+          <img src="https://royalayurvedicspa.com/wp-content/uploads/2020/04/tours.png" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  </div>
+  <div class="container mt-3 d-none d-sm-block">
+    <div class="row   benefitsTravelSub4  w-auto p-0">
+      <div class="col-12 col-sm-12 col-md-12 pb-5 ">
+        <h3>Benefits of Royal Travel and Tourism</h3>
+
+        <div class="row">
+          <div class="clo-4 col-sm-4 col-md-4">
+            <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You will get to
+              know yourself better</p>
+            <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You will make new
+              friends easier</p>
+
+            <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>It will boost
+              your
+              confidence</p>
+            <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>It is good for
+              your well-being</p>
+
+          </div>
+
+          <div class="clo-4 col-sm-4 col-md-4">
+            <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>It is cheaper</p>
+            <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You get to choose
+              your own route</p>
+            <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You reflect on
+              the
+              experience better</p>
+            <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>etc ...</p>
+          </div>
+
+
+
+
+          <div class="clo-4 col-sm-4 col-md-4">
+            <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>It will get you
+              out of your comfort zone</p>
+            <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You will learn
+              how
+              rely on yourself</p>
+            <p class=" mb-1 ps-3"><i class="fas fa-check-circle p-1 text-white" aria-hidden="true"></i>You will start
+              enjoying your own company</p>
+
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col-12" style="border-top:1px solid #6a6e6e;">
+        <p class="pt-3 pb-3 text-center">
+Eternia digital solutions demo template
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
